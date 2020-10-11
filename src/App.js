@@ -15,7 +15,7 @@ function Header({ addTask, handleChange }) {
         />
         <img
           className="add"
-          src={require("../src/addIcon.png")}
+          src={require("../src/addIcon.jpg")}
           alt=""
           onClick={addTask}
         />
