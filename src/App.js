@@ -14,7 +14,7 @@ function Header({ addTask, handleChange }) {
           onChange={handleChange}
         />
         <img
-          class="add"
+          className="add"
           src={require("../src/addIcon.png")}
           alt=""
           onClick={addTask}
@@ -35,8 +35,8 @@ const RenderList = ({ task, deleteTask }) => {
                 <div className="list-item" key={id}>
                   <div className="text-item">{text}</div>
                   <img
-                    class="delete"
-                    src={require("../src/deleteIcon.png")}
+                    className="delete"
+                    src={require("../src/deleteIcon.jpg")}
                     alt=""
                     onClick={deleteTask}
                     id={id}
